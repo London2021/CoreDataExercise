@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FDC6E5224E46D150014ADFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5124E46D150014ADFC /* AppDelegate.swift */; };
+		6FDC6E5424E46D150014ADFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5324E46D150014ADFC /* SceneDelegate.swift */; };
+		6FDC6E5624E46D150014ADFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5524E46D150014ADFC /* ViewController.swift */; };
+		6FDC6E5924E46D150014ADFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5724E46D150014ADFC /* Main.storyboard */; };
+		6FDC6E5C24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5A24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodeld */; };
+		6FDC6E5E24E46D190014ADFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5D24E46D190014ADFC /* Assets.xcassets */; };
+		6FDC6E6124E46D190014ADFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDC6E5F24E46D190014ADFC /* LaunchScreen.storyboard */; };
+		6FDC6E6C24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E6B24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.swift */; };
+		6FDC6E7724E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6E7624E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.swift */; };
+		6FDC6E8524E470890014ADFC /* thumbnail_IMG_7173.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FDC6E8424E470890014ADFC /* thumbnail_IMG_7173.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FDC6E6824E46D190014ADFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDC6E4624E46D150014ADFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDC6E4D24E46D150014ADFC;
+			remoteInfo = Akili_L_CoreData_Exercise;
+		};
+		6FDC6E7324E46D190014ADFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDC6E4624E46D150014ADFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDC6E4D24E46D150014ADFC;
+			remoteInfo = Akili_L_CoreData_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FDC6E4E24E46D150014ADFC /* Akili_L_CoreData_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akili_L_CoreData_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDC6E5124E46D150014ADFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FDC6E5324E46D150014ADFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FDC6E5524E46D150014ADFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FDC6E5824E46D150014ADFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FDC6E5B24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akili_L_CoreData_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		6FDC6E5D24E46D190014ADFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FDC6E6024E46D190014ADFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FDC6E6224E46D190014ADFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDC6E6724E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Akili_L_CoreData_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDC6E6B24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akili_L_CoreData_ExerciseTests.swift; sourceTree = "<group>"; };
+		6FDC6E6D24E46D190014ADFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDC6E7224E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Akili_L_CoreData_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDC6E7624E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akili_L_CoreData_ExerciseUITests.swift; sourceTree = "<group>"; };
+		6FDC6E7824E46D190014ADFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDC6E8424E470890014ADFC /* thumbnail_IMG_7173.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnail_IMG_7173.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDC6E4B24E46D150014ADFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E6424E46D190014ADFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E6F24E46D190014ADFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FDC6E4524E46D150014ADFC = {
+			isa = PBXGroup;
+			children = (
+				6FDC6E5024E46D150014ADFC /* Akili_L_CoreData_Exercise */,
+				6FDC6E6A24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests */,
+				6FDC6E7524E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests */,
+				6FDC6E4F24E46D150014ADFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDC6E4F24E46D150014ADFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC6E4E24E46D150014ADFC /* Akili_L_CoreData_Exercise.app */,
+				6FDC6E6724E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.xctest */,
+				6FDC6E7224E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FDC6E5024E46D150014ADFC /* Akili_L_CoreData_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC6E5124E46D150014ADFC /* AppDelegate.swift */,
+				6FDC6E5324E46D150014ADFC /* SceneDelegate.swift */,
+				6FDC6E5524E46D150014ADFC /* ViewController.swift */,
+				6FDC6E5724E46D150014ADFC /* Main.storyboard */,
+				6FDC6E5D24E46D190014ADFC /* Assets.xcassets */,
+				6FDC6E8424E470890014ADFC /* thumbnail_IMG_7173.jpg */,
+				6FDC6E5F24E46D190014ADFC /* LaunchScreen.storyboard */,
+				6FDC6E6224E46D190014ADFC /* Info.plist */,
+				6FDC6E5A24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodeld */,
+			);
+			path = Akili_L_CoreData_Exercise;
+			sourceTree = "<group>";
+		};
+		6FDC6E6A24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC6E6B24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.swift */,
+				6FDC6E6D24E46D190014ADFC /* Info.plist */,
+			);
+			path = Akili_L_CoreData_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		6FDC6E7524E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FDC6E7624E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.swift */,
+				6FDC6E7824E46D190014ADFC /* Info.plist */,
+			);
+			path = Akili_L_CoreData_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDC6E4D24E46D150014ADFC /* Akili_L_CoreData_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDC6E7B24E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_Exercise" */;
+			buildPhases = (
+				6FDC6E4A24E46D150014ADFC /* Sources */,
+				6FDC6E4B24E46D150014ADFC /* Frameworks */,
+				6FDC6E4C24E46D150014ADFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akili_L_CoreData_Exercise;
+			productName = Akili_L_CoreData_Exercise;
+			productReference = 6FDC6E4E24E46D150014ADFC /* Akili_L_CoreData_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FDC6E6624E46D190014ADFC /* Akili_L_CoreData_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDC6E7E24E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_ExerciseTests" */;
+			buildPhases = (
+				6FDC6E6324E46D190014ADFC /* Sources */,
+				6FDC6E6424E46D190014ADFC /* Frameworks */,
+				6FDC6E6524E46D190014ADFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDC6E6924E46D190014ADFC /* PBXTargetDependency */,
+			);
+			name = Akili_L_CoreData_ExerciseTests;
+			productName = Akili_L_CoreData_ExerciseTests;
+			productReference = 6FDC6E6724E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FDC6E7124E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDC6E8124E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_ExerciseUITests" */;
+			buildPhases = (
+				6FDC6E6E24E46D190014ADFC /* Sources */,
+				6FDC6E6F24E46D190014ADFC /* Frameworks */,
+				6FDC6E7024E46D190014ADFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDC6E7424E46D190014ADFC /* PBXTargetDependency */,
+			);
+			name = Akili_L_CoreData_ExerciseUITests;
+			productName = Akili_L_CoreData_ExerciseUITests;
+			productReference = 6FDC6E7224E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDC6E4624E46D150014ADFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Akili London";
+				TargetAttributes = {
+					6FDC6E4D24E46D150014ADFC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6FDC6E6624E46D190014ADFC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6FDC6E4D24E46D150014ADFC;
+					};
+					6FDC6E7124E46D190014ADFC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6FDC6E4D24E46D150014ADFC;
+					};
+				};
+			};
+			buildConfigurationList = 6FDC6E4924E46D150014ADFC /* Build configuration list for PBXProject "Akili_L_CoreData_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDC6E4524E46D150014ADFC;
+			productRefGroup = 6FDC6E4F24E46D150014ADFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDC6E4D24E46D150014ADFC /* Akili_L_CoreData_Exercise */,
+				6FDC6E6624E46D190014ADFC /* Akili_L_CoreData_ExerciseTests */,
+				6FDC6E7124E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDC6E4C24E46D150014ADFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC6E6124E46D190014ADFC /* LaunchScreen.storyboard in Resources */,
+				6FDC6E5E24E46D190014ADFC /* Assets.xcassets in Resources */,
+				6FDC6E8524E470890014ADFC /* thumbnail_IMG_7173.jpg in Resources */,
+				6FDC6E5924E46D150014ADFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E6524E46D190014ADFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E7024E46D190014ADFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDC6E4A24E46D150014ADFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC6E5C24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodeld in Sources */,
+				6FDC6E5624E46D150014ADFC /* ViewController.swift in Sources */,
+				6FDC6E5224E46D150014ADFC /* AppDelegate.swift in Sources */,
+				6FDC6E5424E46D150014ADFC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E6324E46D190014ADFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC6E6C24E46D190014ADFC /* Akili_L_CoreData_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC6E6E24E46D190014ADFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDC6E7724E46D190014ADFC /* Akili_L_CoreData_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FDC6E6924E46D190014ADFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDC6E4D24E46D150014ADFC /* Akili_L_CoreData_Exercise */;
+			targetProxy = 6FDC6E6824E46D190014ADFC /* PBXContainerItemProxy */;
+		};
+		6FDC6E7424E46D190014ADFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDC6E4D24E46D150014ADFC /* Akili_L_CoreData_Exercise */;
+			targetProxy = 6FDC6E7324E46D190014ADFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FDC6E5724E46D150014ADFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FDC6E5824E46D150014ADFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FDC6E5F24E46D190014ADFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FDC6E6024E46D190014ADFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FDC6E7924E46D190014ADFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FDC6E7A24E46D190014ADFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDC6E7C24E46D190014ADFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FDC6E7D24E46D190014ADFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FDC6E7F24E46D190014ADFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akili_L_CoreData_Exercise.app/Akili_L_CoreData_Exercise";
+			};
+			name = Debug;
+		};
+		6FDC6E8024E46D190014ADFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akili_L_CoreData_Exercise.app/Akili_L_CoreData_Exercise";
+			};
+			name = Release;
+		};
+		6FDC6E8224E46D190014ADFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akili_L_CoreData_Exercise;
+			};
+			name = Debug;
+		};
+		6FDC6E8324E46D190014ADFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akili_L_CoreData_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Akili-London.Akili-L-CoreData-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akili_L_CoreData_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDC6E4924E46D150014ADFC /* Build configuration list for PBXProject "Akili_L_CoreData_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDC6E7924E46D190014ADFC /* Debug */,
+				6FDC6E7A24E46D190014ADFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDC6E7B24E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDC6E7C24E46D190014ADFC /* Debug */,
+				6FDC6E7D24E46D190014ADFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDC6E7E24E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDC6E7F24E46D190014ADFC /* Debug */,
+				6FDC6E8024E46D190014ADFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDC6E8124E46D190014ADFC /* Build configuration list for PBXNativeTarget "Akili_L_CoreData_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDC6E8224E46D190014ADFC /* Debug */,
+				6FDC6E8324E46D190014ADFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FDC6E5A24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FDC6E5B24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodel */,
+			);
+			currentVersion = 6FDC6E5B24E46D150014ADFC /* Akili_L_CoreData_Exercise.xcdatamodel */;
+			path = Akili_L_CoreData_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FDC6E4624E46D150014ADFC /* Project object */;
+}
